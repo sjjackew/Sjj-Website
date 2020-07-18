@@ -1,0 +1,50 @@
+/* heres some info about this file */
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 45%;
+    padding: 10px;
+}
+
+.nav-item {
+    height: 100%;
+    border: 3px solid white;
+    margin: auto 10px;
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.nav-item > a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item > a:hover {
+    color: black;
+    transition: 1.8s;
+}
+
+.nav-item:hover {
+    background: white;
+    transition: all 1.8s;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../IMG_2437.JPG);
+	height: 10%;
+	background-size: cover;
+	background-position: center;
+}
